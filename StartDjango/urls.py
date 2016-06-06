@@ -23,7 +23,10 @@ urlpatterns = [
     url(r'^$', learn_views.index),  # new
     url(r'^add/$', learn_views.add, name='add'),  # calc
     url(r'^add2/(\d+)/(\d+)/$', learn_views.add2, name='add2'),
-    url(r'^home/$', learn_views.home, name='home')
+    url(r'^home/$', learn_views.home, name='home'),
+    url(r'^index/$', learn_views.index2, name='index2'),
+    url(r'^add3/$', learn_views.add3, name='add3'),
+    url(r'^postc/$', learn_views.postadd, name='postadd'),
 ]
 
 '''
